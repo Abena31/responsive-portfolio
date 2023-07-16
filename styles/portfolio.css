@@ -1,29 +1,48 @@
 :root {
   --branding-color: purple;
+  --secondary-color: aquamarine;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Inter", sans-serif;
 }
 
-h1 {
-  font-family: "Playfair Display", serif;
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
   color: black;
   font-weight: bold;
-  font-size: 87px;
+}
+h1 {
+  font-size: 96px;
 }
 
-h3 {
-  font-family: "Inter", sans-serif;
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.7;
   font-weight: normal;
 }
 
-.Knight {
+.hero {
   font-size: 37px;
-  font-weight: bold;
-  margin: 0;
-  background-color: aquamarine;
+  background: var(--secondary-color);
   text-align: center;
+  padding: 160px 20px;
 }
 
-.Knight h2 {
-  font-family: "Inter", sans-serif;
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+.hero h2 {
   font-weight: normal;
   font-size: 25px;
   line-height: 2;
@@ -33,7 +52,7 @@ h3 {
   background: var(--branding-color);
   border-radius: 4px;
   color: rgb(7, 41, 40);
-  font-size: 19px;
+  font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
   font-family: "Libre Baskerville", serif;
