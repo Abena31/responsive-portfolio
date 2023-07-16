@@ -29,7 +29,7 @@ h2 {
 p {
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 32px;
 }
 
 .hero {
@@ -67,4 +67,8 @@ p {
   line-height: 27px;
   padding: 12px 20px;
   font-family: "Libre Baskerville", serif;
+}
+
+.orange {
+  padding: 0 30px;
 }
