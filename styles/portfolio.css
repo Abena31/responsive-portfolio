@@ -1,3 +1,7 @@
+:root {
+  --branding-color: purple;
+}
+
 h1 {
   font-family: "Playfair Display", serif;
   color: black;
@@ -17,7 +21,7 @@ h3 {
   font-size: 37px;
   font-weight: bold;
   margin: 0;
-  background-color: plum;
+  background-color: aquamarine;
   text-align: center;
 }
 
@@ -29,9 +33,9 @@ h3 {
 }
 
 .btn-branding {
-  background: #6c63ff;
+  background: purple;
   border-radius: 4px;
-  color: blanchedalmond;
+  color: rgb(7, 41, 40);
   font-size: 19px;
   line-height: 27px;
   padding: 12px 20px;
