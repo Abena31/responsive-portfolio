@@ -6,10 +6,7 @@ h1 {
   font-family: "Playfair Display", serif;
   color: black;
   font-weight: bold;
-}
-
-h1 {
-  font-size: 95px;
+  font-size: 87px;
 }
 
 h3 {
@@ -33,6 +30,15 @@ h3 {
 }
 
 .btn-branding {
+  background: purple;
+  border-radius: 4px;
+  color: rgb(7, 41, 40);
+  font-size: 19px;
+  line-height: 27px;
+  padding: 12px 20px;
+  font-family: "Libre Baskerville", serif;
+}
+.btn-branding-outline {
   background: purple;
   border-radius: 4px;
   color: rgb(7, 41, 40);
