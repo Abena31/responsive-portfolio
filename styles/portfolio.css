@@ -7,7 +7,7 @@ h3 {
 }
 
 h1 {
-  font-size: 97px;
+  font-size: 95px;
 }
 
 P {
@@ -25,4 +25,5 @@ P {
 }
 
 .Knight h2 {
+  font-family: "Inter", sans-serif;
 }
