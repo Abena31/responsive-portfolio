@@ -30,7 +30,7 @@ h3 {
 }
 
 .btn-branding {
-  background: purple;
+  background: var(--branding-color);
   border-radius: 4px;
   color: rgb(7, 41, 40);
   font-size: 19px;
@@ -39,7 +39,7 @@ h3 {
   font-family: "Libre Baskerville", serif;
 }
 .btn-branding-outline {
-  background: purple;
+  background: var(--branding-color);
   border-radius: 4px;
   color: rgb(7, 41, 40);
   font-size: 19px;
