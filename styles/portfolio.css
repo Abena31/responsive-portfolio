@@ -1,6 +1,6 @@
 :root {
-  --branding-color: purple;
-  --secondary-color: aquamarine;
+  --branding-color: #990033;
+  --secondary-color: #f9f2f4;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Inter", sans-serif;
 }
@@ -51,11 +51,28 @@ p {
   line-height: 1.5;
 }
 
+.img-fluid-1 {
+  max-width: 100%;
+  width: 300px;
+  height: auto;
+  border-radius: 30px;
+  transition: opacity 150ms ease-in-out;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.img-fluid-1:hover {
+  filter: contrast(50%);
+  transform: scale(1.2);
+}
+
 .about-section h1 {
   font-size: 60px;
 }
 
-.about-section p {
+.about-section h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
@@ -72,10 +89,17 @@ p {
   background: var(--branding-color);
   border-radius: 4px;
   color: rgb(7, 41, 40);
-  font-size: 19px;
   line-height: 27px;
   padding: 12px 20px;
   font-family: "Libre Baskerville", serif;
+  font-size: 18px;
+  border: 1px solid;
+  transition: all 150ms ease-in-out;
+}
+
+.btn-branding-outline:hover {
+  background: var(--secondary-color);
+  cursor: pointer;
 }
 
 @media (max-width: 900) {
@@ -87,7 +111,13 @@ p {
     font-size: 44px;
   }
 }
-
+.context {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
 .orange {
   padding: 0;
   text-align: center;
