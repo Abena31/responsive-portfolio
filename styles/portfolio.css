@@ -97,6 +97,7 @@ p {
 .btn-branding-outline {
   background: var(--branding-color);
   border-radius: 4px;
+  color: rgb(7, 41, 40);
   line-height: 27px;
   padding: 12px 20px;
   font-family: "Libre Baskerville", serif;
