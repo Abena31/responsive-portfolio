@@ -85,6 +85,15 @@ p {
   margin: 30px;
 }
 
+.logo {
+  min-width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+  border-radius: ;
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
